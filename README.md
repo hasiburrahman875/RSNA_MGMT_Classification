@@ -1,5 +1,13 @@
 This is a project by team MediMiners. 
 Team Members: Ganesh, Hasibur, Mizanur, and Sazed (Order is in significant)
+### DICOM to NIFTII
+To convert the DICOM format to NIFTII format, please use `dicomtoniftii.ipynb` under the `preprocessing` folder.
+
+### Densent 169
+For central preprocessing and interval preprocessing, please utilize the corresponding codes. Please select the exact MRI type and provide the accurate data path for smooth execution. The results will be saved in a CSV file for further evaluation and ensembling. 
+
+### Ensemble and ROC Curve
+The ROC curve is generated differently in the `dm_auc_generation.ipynb` file. The ROC curve generator takes the predicted values for different models or MRI types, along with their maximum, minimum, and average values, which are provided in the corresponding CSV files in the `Prediction_CSV` folder.
 
 
 ### Radiomic Feature
