@@ -1,5 +1,9 @@
-This is a project by team MediMiners. 
-Team Members: Ganesh, Hasibur, Mizanur, and Sazed (Order is in significant)
+This is a project by team **MediMiners.** 
+Team Members: _Ganesh, Hasibur, Mizanur, and Sazed (Order is insignificant)_
+
+### Dataset Link
+https://www.kaggle.com/c/rsna-miccai-brain-tumor-radiogenomic-classification/
+
 ### DICOM to NIFTII
 To convert the DICOM format to NIFTII format, please use `dicomtoniftii.ipynb` under the `preprocessing` folder.
 
