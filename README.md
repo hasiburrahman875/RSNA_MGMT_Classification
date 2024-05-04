@@ -4,6 +4,9 @@ Team Members: _Ganesh, Hasibur, Mizanur, and Sazed (Order is insignificant)_
 ### Dataset Link
 https://www.kaggle.com/c/rsna-miccai-brain-tumor-radiogenomic-classification/
 
+### Environment for Densenet and Data Preprocessing
+Please install the required packages using _pip install -r requirement.txt_ in the corresponding conda environment. 
+
 ### DICOM to NIFTII
 To convert the DICOM format to NIFTII format, please use `dicomtoniftii.ipynb` under the `preprocessing` folder.
 
